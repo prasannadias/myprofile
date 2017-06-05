@@ -1,0 +1,19 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "My profile using Node, Bootstrap",
+  "main": "app/app.js",
+  "scripts": {
+     "start": "nodemon -e css,ejs,js,json --watch app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasannadias/profile.git"
+  },
+  "author": "Prasanna Dias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prasannadias/profile/issues"
+  },
+  "homepage": "https://github.com/prasannadias/profile#readme"
+}

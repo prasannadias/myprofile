@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+      <% include partials/template/head.ejs %>
+  </head>
+  <body id="<%=pageID%>">
+      <% include partials/template/header.ejs %>
+   
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <% include partials/content/email.ejs %>
+        </div>  
+
+         <aside class="row col-sm-4">
+              <h3 class="glyphicon glyphicon-map-marker">Address</h3>
+              <p >Glendale, CA</p>
+       
+               <% include partials/content/location.ejs %>
+        </aside>      
+
+        
+        <aside class="row col-sm-4">
+              <h3 id="contactsocial">Social</h3>
+              <p><a href="https://www.linkedin.com/in/prasannadias" target="_blank"><i class="fa fa-linkedin-square tooltip2" title="Linked In" aria-hidden="true"></i> LinkedIn</a></p>
+              <p><a href="https://github.com/prasannadias" target="_blank"><i class="fa fa-github tooltip2" title="Github" aria-hidden="true"></i> Github</a></p>
+        </aside>      
+
+       
+        
+
+    </div><!-- container -->
+    </div>
+       <% include partials/template/jsdefaults.ejs %>
+       <% include partials/template/footer.ejs %>
+  </body>
+</html>
