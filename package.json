@@ -4,7 +4,7 @@
   "description": "My profile using Node, Bootstrap",
   "main": "app/app.js",
   "scripts": {
-     "start": "nodemon -e css,ejs,js,json --watch app"
+    "start": "nodemon -e css,ejs,js,json --watch app"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/prasannadias/profile/issues"
   },
-  "homepage": "https://github.com/prasannadias/profile#readme"
+  "homepage": "https://github.com/prasannadias/profile#readme",
+  "dependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
