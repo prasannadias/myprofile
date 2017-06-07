@@ -46,7 +46,7 @@ header .jumbotron {
   height: 28vh;
   margin-top: 0;
   margin-bottom: 0;
-  background: url(/public/images/misc/background.jpg) no-repeat 100% 73%;
+  background: url(../images/misc/background.JPG) no-repeat 100% 73%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
