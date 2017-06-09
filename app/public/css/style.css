@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -43,10 +44,10 @@ footer {
   width:300px; height:300px;float:left;  }
 
 header .jumbotron {
-  height: 28vh;
+  height: 23vh;
   margin-top: 0;
   margin-bottom: 0;
-  background: url(../images/misc/background.JPG) no-repeat 100% 73%;
+  background: url(../images/misc/background.JPG) no-repeat 100% 70%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -54,12 +55,13 @@ header .jumbotron {
 }
 
 footer .jumbotron{
- height:8vh;
-text-align: center;
-top: 50%;
-transform: translateY(-50%); 
-background:   #000000;
-margin-bottom: 0;
+ 
+  height:6em;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%); 
+  background:   #000000;
+  margin-bottom: 0;
  
 }
 
